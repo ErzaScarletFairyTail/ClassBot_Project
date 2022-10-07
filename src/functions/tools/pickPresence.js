@@ -26,7 +26,7 @@ module.exports = (client) => {
             {
                 type: ActivityType.Listening,
                 text: "Spotfiy",
-                status: "idle"
+                status: "online"
             }
         ];
 

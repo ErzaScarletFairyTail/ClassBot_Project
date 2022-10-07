@@ -9,6 +9,9 @@ client.buttons = new Collection();
 client.selectMenus = new Collection();
 client.modals = new Collection();
 client.commandArray = [];
+client.classAndSection = [];
+client.setTimeTable = [];
+client.serverID = [];
 
 const functionFolders = fs.readdirSync('./src/functions');
 for (const folder of functionFolders) {

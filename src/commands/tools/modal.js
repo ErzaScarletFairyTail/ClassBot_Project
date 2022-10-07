@@ -15,7 +15,19 @@ module.exports = {
             .setRequired(true)
             .setStyle(TextInputStyle.Short);
 
-        modal.addComponents(new ActionRowBuilder().addComponents(textInput));
+        const testTextInput2 = new TextInputBuilder()
+            .setCustomId('testTextInput2')
+            .setLabel('Write something inside the text input!')
+            .setRequired(true)
+            .setStyle(TextInputStyle.Short);
+
+        const row = new ActionRowBuilder()
+            .addComponents(textInput);
+
+        const row2 = new ActionRowBuilder()
+            .addComponents(testTextInput2);
+            
+        modal.addComponents(row , row2);
 
         await interaction.showModal(modal);
             
