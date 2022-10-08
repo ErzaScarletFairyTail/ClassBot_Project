@@ -21,7 +21,7 @@ module.exports = {
         if (day.toUpperCase() === "SATURDAY" && timetable.data.class == "terminale") {
 
             if(time.toUpperCase() == "M1" || time.toUpperCase() == "M2" || time.toUpperCase() == "M3" || time.toUpperCase() == "M4") {
-                
+
                 timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Subject = subject;
                 timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Classroom = classroom;
     
@@ -38,19 +38,26 @@ module.exports = {
 
 
         } else {
-                
-                // Add the new in class work to the timetable
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Subject = subject;
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Classroom = classroom;
-    
-                // Write the new timetable to the file timetable.json
-                fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
-    
-                // Send a message to the user
-                await interaction.update({
-                    content: `The work has been added to the timetable for ${week} ${day} ${time}`,
+                interaction.update({
+                    content: `The work has not been added to the timetable for ${week} ${day} ${time} because the class is not terminal`,
                     components: []
                 });
+        }
+
+        if(!day.toUpperCase() === "SATURDAY" ) {
+
+            // Add the new in class work to the timetable
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Subject = subject;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Classroom = classroom;
+
+            // Write the new timetable to the file timetable.json
+            fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
+
+            // Send a message to the user
+            await interaction.update({
+                content: `The work has been added to the timetable for ${week} ${day} ${time}`,
+                components: []
+            });
         }
     }
 };

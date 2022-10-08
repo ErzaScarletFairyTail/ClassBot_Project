@@ -10,6 +10,7 @@ client.selectMenus = new Collection();
 client.modals = new Collection();
 client.commandArray = [];
 client.classAndSection = [];
+client.ingroupwork = [];
 
 const functionFolders = fs.readdirSync('./src/functions');
 for (const folder of functionFolders) {
