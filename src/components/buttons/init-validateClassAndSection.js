@@ -12,19 +12,23 @@ module.exports = {
 
         // Create a new SelectMenuBuilder for select SP or SI
         const menu = new SelectMenuBuilder()
-            .setCustomId('init-week')
-            .setPlaceholder('Select a week')
+            .setCustomId('init-worktype')
+            .setPlaceholder('Select a worktype')
             .setMinValues(1)
             .setMaxValues(1)
             .addOptions([
                 new SelectMenuOptionBuilder()
-                    .setLabel('Even week')
-                    .setValue('even')
-                    .setDescription('Select this option if you want to configure the even week'),
+                    .setLabel('In Class')
+                    .setValue('inclass')
+                    .setDescription('Work in class'),
                 new SelectMenuOptionBuilder()
-                    .setLabel('Odd week')
-                    .setValue('odd')
-                    .setDescription('Select this option if you want to configure the odd week')
+                    .setLabel('In Group')
+                    .setValue('ingroup')
+                    .setDescription('Work in group'),
+                new SelectMenuOptionBuilder()
+                    .setLabel('In Option')
+                    .setValue('inoption')
+                    .setDescription('Work in option (ONLY FOR 1ER AND TERMINAL GENERAL OR 1ER AND TERMINAL TECHNOLOGY')
             ]);
 
         const row = new ActionRowBuilder()
@@ -52,7 +56,7 @@ module.exports = {
                         fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetableSeconde));
 
                         await interaction.update({
-                            content: 'Config the week Server:',
+                            content: 'Config the timetable of the class:',
                             components: [row]
                         });
                         // Delete classAndSection array
@@ -102,7 +106,7 @@ module.exports = {
                         fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetablePremiereTech));
 
                         await interaction.update({
-                            content: 'Config the week Server:',
+                            content: 'Config the timetable of the class:',
                             components: [row]
                         });
                         // Delete classAndSection array
@@ -152,7 +156,7 @@ module.exports = {
                         fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetableTerminaleTech));
 
                         await interaction.update({
-                            content: 'Config the week Server:',
+                            content: 'Config the timetable of the class:',
                             components: [row]
                         });
                         // Delete classAndSection array

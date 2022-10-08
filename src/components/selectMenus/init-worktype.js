@@ -15,6 +15,27 @@ module.exports = {
             .setCustomId('init-inClassModal')
             .setTitle('Config the in class work');
 
+        // Create a new TextInputBuilder name 'inClassTextInputWeek'
+        const inClassTextInputWeek = new TextInputBuilder()
+            .setCustomId('inClassTextInputWeek')
+            .setPlaceholder('Which week? (Even or Odd)')
+            .setRequired(true)
+            .setStyle(TextInputStyle.Short);
+
+        // Create a new TextInputBuilder name 'inClassTextInputDay'
+        const inClassTextInputDay = new TextInputBuilder()
+            .setCustomId('inClassTextInputDay')
+            .setPlaceholder('Which day? (Mon, Tue, Wed, Thu, Fri)')
+            .setRequired(true)
+            .setStyle(TextInputStyle.Short);
+
+        // Create a new TextInputBuilder name 'inClassTextInputTime'
+        const inClassTextInputTime = new TextInputBuilder()
+            .setCustomId('inClassTextInputTime')
+            .setPlaceholder('Which time? (M1, M2, M3, M4, M5, S1, S2, S3, S4)')
+            .setRequired(true)
+            .setStyle(TextInputStyle.Short);
+        
         // Create a new TextInputBuilder name 'inClassTextInputSubject'
         const inClassTextInputSubject = new TextInputBuilder()
             .setCustomId('inClassTextInputSubject')
@@ -30,7 +51,7 @@ module.exports = {
             .setStyle(TextInputStyle.Short);
 
         // Add the ActionRowBuilder to the ModalBuilder
-        inClassModal.addComponents(new ActionRowBuilder().addComponents(inClassTextInputSubject), new ActionRowBuilder().addComponents(inClassTextInputClassroom));
+        inClassModal.addComponents(new ActionRowBuilder().addComponents(inClassTextInputWeek), new ActionRowBuilder().addComponents(inClassTextInputDay), new ActionRowBuilder().addComponents(inClassTextInputTime) , new ActionRowBuilder().addComponents(inClassTextInputSubject), new ActionRowBuilder().addComponents(inClassTextInputClassroom));
 
 
         // Create a new ModalBuilder name 'inGroupModal'

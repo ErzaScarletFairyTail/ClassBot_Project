@@ -7,13 +7,6 @@ module.exports = {
     },
     async execute(interaction, client) {
 
-        const { setTimeTable } = client;
-        console.log(setTimeTable);
-        //[ 'even', 'Monday', 'firsthour' ]
-        const week = setTimeTable[0];
-        const day = setTimeTable[1];
-        const hour = setTimeTable[2];
-
         /*
         // open the file with the timetable
         const servTimetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`, 'utf8'));
