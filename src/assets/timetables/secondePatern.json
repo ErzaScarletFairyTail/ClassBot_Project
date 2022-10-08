@@ -2,35 +2,35 @@
     "data": {},
     "even": {
         "Monday": {
-            "firsthour": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             },
-            "9h05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             },
-            "10h15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             },
-            "11h10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             },
-            "13h25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             },
-            "14h20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             },
-            "15h30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             },
-            "16h25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} }
             }

@@ -7,51 +7,25 @@ module.exports = {
     },
     async execute(interaction, client) {
 
-        /*
-        // open the file with the timetable
-        const servTimetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`, 'utf8'));
+        const week = interaction.fields.getTextInputValue("inClassTextInputWeek");
+        const day = interaction.fields.getTextInputValue("inClassTextInputDay");
+        const time = interaction.fields.getTextInputValue("inClassTextInputTime");
+        const subject = interaction.fields.getTextInputValue("inClassTextInputSubject");
+        const classroom = interaction.fields.getTextInputValue("inClassTextInputClassroom");
 
+        // Open the file timetable.json from the server folder
+        const timetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`));
 
-        switch (week) {
-            case "even":
-                
-                switch (day) {
-                    case "monday":
+        // Add the new in class work to the timetable
+        timetable[week][day][time].inClassWork.Subject = subject;
+        timetable[week][day][time].inClassWork.Classroom = classroom;
 
-                        switch (hour) {
-                            case "firsthour":
-                                servTimetable.even.monday.firsthour = { subject: interaction.fields.getTextInputValue("inClassTextInputSubject") , classroom: interaction.fields.getTextInputValue("inClassTextInputClassroom") };
-                                fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(servTimetable));
+        // Write the new timetable to the file timetable.json
+        fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
 
-                                interaction.reply({
-                                    content: `You write: ${interaction.fields.getTextInputValue("inClassTextInputSubject")} in the classroom ${interaction.fields.getTextInputValue("inClassTextInputClassroom")}`
-                                });
-                                break;
-                            case "secondhour":
-                                break;
-                        }
-                        break;
-                    case "tuesday":
-                        break;
-                    case "wednesday":
-                        break;
-                    case "thursday":
-                        break;
-                    case "friday":
-                        break;
-                    default:
-                        break;
-                }
-                break;
-            
-            case "odd":
-
-                break;
-        
-            default:
-                break;
-        }
-        */
-
+        // Send a message to the user
+        await interaction.reply({
+            content: `Added ${subject} in ${classroom} on ${day} at ${time} to the timetable`
+        });
     }
 };
