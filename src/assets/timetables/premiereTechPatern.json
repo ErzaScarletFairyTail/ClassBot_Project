@@ -1,426 +1,426 @@
 {
     "data": {},
-    "even": {
-        "Monday": {
-            "8:10": {
+    "EVEN": {
+        "MONDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Tuesday": {
-            "8:10": {
+        "TUESDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Wednesday": {
-            "8:10": {
+        "WEDNESDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Thursday": {
-            "8:10": {
+        "THURSDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Friday": {
-            "8:10": {
+        "FRIDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         }
     },
-    "odd": {
-        "Monday": {
-            "8:10": {
+    "ODD": {
+        "MONDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Tuesday": {
-            "8:10": {
+        "TUESDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Wednesday": {
-            "8:10": {
+        "WEDNESDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Thursday": {
-            "8:10": {
+        "THURSDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         },
-        "Friday": {
-            "8:10": {
+        "FRIDAY": {
+            "M1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "9:05": {
+            "M2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "10:15": {
+            "M3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "11:10": {
+            "M4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "13:25": {
+            "S1": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "14:20": {
+            "S2": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "15:30": {
+            "S3": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
-            "16:25": {
+            "S4": {
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
-                "inOptionWork": { "group1": {}, "group2": {}, "group3": {}, "group4": {} }
+                "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             }
         }
     }
