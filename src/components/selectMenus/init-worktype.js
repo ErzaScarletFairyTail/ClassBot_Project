@@ -102,6 +102,46 @@ module.exports = {
                 );
 
                 await interaction.showModal(inGroupModal1);
+                break;
+
+            case "inoption":
+
+                const inOptionModal = new ModalBuilder()
+                    .setTitle("In option")
+                    .setCustomId("init-inOptionModal1");
+
+                const inOptionTextInputWeek = new TextInputBuilder()
+                    .setCustomId("inOptionTextInputWeek")
+                    .setLabel("Week")
+                    .setPlaceholder("Week (Even or Odd)")
+                    .setRequired(true)
+                    .setStyle(TextInputStyle.Short);
+
+                const inOptionTextInputDay = new TextInputBuilder()
+                    .setCustomId("inOptionTextInputDay")
+                    .setLabel("Day")
+                    .setPlaceholder("Day (Monday, Tuesday, Wednesday, Thursday, Friday)")
+                    .setRequired(true)
+                    .setStyle(TextInputStyle.Short);
+
+                const inOptionTextInputTime = new TextInputBuilder()
+                    .setCustomId("inOptionTextInputTime")
+                    .setLabel("Time")
+                    .setPlaceholder("Time (M1, M2, M3, M4, M5, S1, S2, S3, S4)")
+                    .setRequired(true)
+                    .setStyle(TextInputStyle.Short);
+
+                inOptionModal.addComponents(
+                    new ActionRowBuilder()
+                        .addComponents(inOptionTextInputWeek),
+                    new ActionRowBuilder()
+                        .addComponents(inOptionTextInputDay),
+                    new ActionRowBuilder()
+                        .addComponents(inOptionTextInputTime)
+                );
+
+                await interaction.showModal(inOptionModal);
+                break;
 
             default:
                 break;

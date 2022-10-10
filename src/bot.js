@@ -11,6 +11,7 @@ client.modals = new Collection();
 client.commandArray = [];
 client.classAndSection = [];
 client.ingroupwork = [];
+client.inoptionwork = [];
 
 const functionFolders = fs.readdirSync('./src/functions');
 for (const folder of functionFolders) {
