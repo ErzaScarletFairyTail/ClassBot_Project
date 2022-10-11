@@ -8,6 +8,33 @@ module.exports = {
 
     async execute(interaction, client) {
 
+        
+        const inOptionModalTerminalTech1 = new ModalBuilder()
+            .setTitle("Terminal Technologique SIN Option")
+            .setCustomId("init-inOptionModalTerminalTech1");
+
+        const inOptionModalTerminalTechSINSubject = new TextInputBuilder()
+            .setCustomId("inOptionModalTerminalTechSINSubject")
+            .setLabel("Subject")
+            .setPlaceholder("Subject")
+            .setRequired(false)
+            .setStyle(TextInputStyle.Short);
+
+        const inOptionModalTerminalTechSINClassroom = new TextInputBuilder()
+            .setCustomId("inOptionModalTerminalTechSINClassroom")
+            .setLabel("Classroom")
+            .setPlaceholder("Classroom")
+            .setRequired(false)
+            .setStyle(TextInputStyle.Short);
+
+        inOptionModalTerminalTech1.addComponents(
+            new ActionRowBuilder()
+                .addComponents(inOptionModalTerminalTechSINSubject),
+            new ActionRowBuilder()
+                .addComponents(inOptionModalTerminalTechSINClassroom)
+        );
+
+
         // Open the timetable of the server
         const timetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`));
 
@@ -19,19 +46,16 @@ module.exports = {
 
             if(section === "general" && classe === "premiere"){
                 await interaction.update({
-                    content: 'Available for Première General',
+                    content: 'Not available for Première General',
                     components: []
                 });
             } else if (section === "general" && classe === "terminale"){
                 await interaction.update({
-                    content: 'Available for Terminale General',
+                    content: 'Not available for Terminale General',
                     components: []
                 });
             } else if (section === "technology" && classe === "terminale"){
-                await interaction.update({
-                    content: 'Available for Terminale Technology',
-                    components: []
-                });
+                await interaction.showModal(inOptionModalTerminalTech1);
             }
         }
     }
