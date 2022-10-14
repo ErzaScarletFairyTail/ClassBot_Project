@@ -3,7 +3,7 @@ const fs = require('fs');
 
 module.exports = {
     data: new SlashCommandBuilder() // Create a new SlashCommandBuilder
-        .setName('testfile') // Set the name of the command
+        .setName('initserv') // Set the name of the command
         .setDescription('Returns a modal to create a file!'), // Set the description of the command
     async execute(interaction, client) { // Execute the command
 

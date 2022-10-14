@@ -7,6 +7,8 @@ module.exports = {
     },
     async execute(interaction, client) {
 
+        
+
         const week = interaction.fields.getTextInputValue("inClassTextInputWeek");
         const day = interaction.fields.getTextInputValue("inClassTextInputDay");
         const time = interaction.fields.getTextInputValue("inClassTextInputTime");
@@ -30,7 +32,7 @@ module.exports = {
     
                 // Send a message to the user
                 await interaction.update({
-                    content: `The work has been added to the timetable for ${week} ${day} ${time}`,
+                    content: `The work has been added to the timetable for ${week} ${day} ${time}`+'\nChoose a option to continu the configuration:',
                     components: []
                 }); 
             }
