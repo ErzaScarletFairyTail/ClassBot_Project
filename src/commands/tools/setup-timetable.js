@@ -35,7 +35,7 @@ module.exports = {
         const row = new ActionRowBuilder()
             .addComponents(menu);
 
-        await interaction.update({
+        await interaction.reply({
             content: 'Config the timetable:',
             components: [row]
         });

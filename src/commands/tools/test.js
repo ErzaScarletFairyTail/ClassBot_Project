@@ -8,19 +8,12 @@ module.exports = {
         .addStringOption(option => option.setName('string').setDescription('The string to test')),
 
     async execute(interaction, client) { // Execute the command
-        const user = interaction.options.getUser('user'); // Get the user from the options
-        let string = interaction.options.getString('string'); // Get the string from the options
-        const member = await interaction.guild.members.fetch(user.id).catch(console.error); // Get the member from the user
+        // Get the role 'Admin' from the guild
+        const adminRole = interaction.guild.roles.cache.find(role => role.name === 'Admin');
 
-        if (!string) string = 'No string provided'; // If there is no string, set it to 'No string provided'
-
-        user.send({
-            content: `You have been tested by ${interaction.user.tag}!\n Here are the results: ${string}`,
-        });
-
-        interaction.reply({
-            content: `You have tested ${member.user.tag}!\n Here are the results: ${string}`,
-            ephemeral: true,
+        await interaction.reply({
+            content: `Role Admin: ${adminRole}\nID: ${adminRole.id}`,
+            ephemeral: true
         });
     }
 };

@@ -39,11 +39,6 @@ module.exports = {
             
 
 
-        } else {
-                interaction.update({
-                    content: `The work has not been added to the timetable for ${week} ${day} ${time} because the class is not terminal`,
-                    components: []
-                });
         }
 
         if(day.toUpperCase() != "SATURDAY" ) {
