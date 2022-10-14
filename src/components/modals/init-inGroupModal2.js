@@ -81,7 +81,7 @@ module.exports = {
 
             // Send a message to the user
             await interaction.update({
-                content: `The work has been added to the timetable for ${week} ${day} ${time}`,
+                content: `The work has been added to the timetable for ${week} ${day} ${time}`+"\nTo continue the creation of the timetable, rerun the command ```/setup-timetable```",
                 components: []
             });
         }

@@ -32,7 +32,7 @@ module.exports = {
     
                 // Send a message to the user
                 await interaction.update({
-                    content: `The work has been added to the timetable for ${week} ${day} ${time}`+'\nChoose a option to continu the configuration:',
+                    content: `The work has been added to the timetable for ${week} ${day} ${time}`+"To continue the creation of the timetable, rerun the command ```/setup-timetable```",
                     components: []
                 }); 
             }
@@ -46,7 +46,7 @@ module.exports = {
                 });
         }
 
-        if(!day.toUpperCase() === "SATURDAY" ) {
+        if(day.toUpperCase() != "SATURDAY" ) {
 
             // Add the new in class work to the timetable
             timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Subject = subject;
@@ -57,7 +57,7 @@ module.exports = {
 
             // Send a message to the user
             await interaction.update({
-                content: `The work has been added to the timetable for ${week} ${day} ${time}`,
+                content: `The work has been added to the timetable for ${week} ${day} ${time}`+"\nTo continue the creation of the timetable, rerun the command ```/setup-timetable```",
                 components: []
             });
         }

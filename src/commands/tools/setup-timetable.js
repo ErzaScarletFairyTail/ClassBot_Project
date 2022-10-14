@@ -1,11 +1,10 @@
-const {SelectMenuBuilder, ActionRowBuilder, SelectMenuOptionBuilder} = require('discord.js');
+const {SlashCommandBuilder, SelectMenuBuilder, ActionRowBuilder, SelectMenuOptionBuilder} = require('discord.js');
 const fs = require('fs');
 
 module.exports = {
-    data: {
-        name: 'setup-timetab'
-    },
-
+    data: new SlashCommandBuilder() // Create a new SlashCommandBuilder
+        .setName('setup-timetable') // Set the name of the command
+        .setDescription('Return the setup for the timetable!'), // Set the description of the command
     async execute(interaction, client) {
 
         // Get data of ./src/data/${interaction.guild.id}/timetable.json and parse it
