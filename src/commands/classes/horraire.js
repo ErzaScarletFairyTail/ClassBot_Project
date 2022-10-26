@@ -21,110 +21,90 @@ module.exports = {
     },
     async execute(interaction, client) { // Execute the command
         // Is the week even or odd?
-        const week = Math.floor((new Date().getTime() - new Date('2021-09-01').getTime()) / 604800000) % 2;
-        // Get the day of the week
-        const getDay = new Date().getDay();
+        const getWeek = Math.floor((new Date().getTime() - new Date('2021-09-01').getTime()) / 604800000) % 2;
+        // Get the day of the week in letters
+        const day = new Date().toLocaleString('en-EN', { weekday: 'long' });
         // Get the hour
         const hour = interaction.options.getString('heure'); // Get the option value
+        //Init variables
+        let week = "";
+        let free = "Cours libre";
+        let inClassSubject = '';
+        let inClassClassroom = '';
+        let inGroupSubjectA = '';
+        let inGroupClassroomA = '';
+        let inGroupSubjectB = '';
+        let inGroupClassroomB = '';
+        let inOptionSubjectSIN = '';
+        let inOptionClassroomSIN = '';
+        let inOptionSubjectEE = '';
+        let inOptionClassroomEE = '';
+        let inOptionSubjectITEC = '';
+        let inOptionClassroomITEC = '';
 
-        // Wich day is it?
-        let day;
-        switch (getDay) {
-            case 1:
-                day = 'MONDAY';
-                break;
-            case 2:
-                day = 'TUESDAY';
-                break;
-            case 3:
-                day = 'WEDNESDAY';
-                break;
-            case 4:
-                day = 'THURSDAY';
-                break;
-            case 5:
-                day = 'FRIDAY';
-                break;
-            case 6:
-                day = 'SATURDAY';
-                break;
-            default:
-                day = 'SUNDAY';
-                break;
-        }
-
-        
         // Open the file timetable.json from the server folder
         const timetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`));
-
-        // type of work
-        let type;
-        switch (timetable[week ? 'EVEN' : 'ODD'][day][hour].type) {
+        console.log(timetable);
+        // Get the week
+        if (getWeek == 0) {
+            week = "ODD";
+        } else {
+            week = "EVEN";
+        }
+        // Get the type
+        const dayTimeTable = timetable[week][day.toUpperCase()][hour];
+        console.log(dayTimeTable);
+        // Get the hour type
+        switch (dayTimeTable.type) {
             case 'inClassWork':
-                type = 'inClassWork';
+                inClassSubject = dayTimeTable.inClassWork_Subject;
+                inClassClassroom = dayTimeTable.inClassWork_Classroom;
                 break;
             case 'inGroupWork':
-                type = 'inGroupWork';
+                inGroupSubjectA = dayTimeTable.inGroupWork_SubjectA;
+                inGroupClassroomA = dayTimeTable.inGroupWork_ClassroomA;
+                inGroupSubjectB = dayTimeTable.inGroupWork_SubjectB;
+                inGroupClassroomB = dayTimeTable.inGroupWork_ClassroomB;
                 break;
             case 'inOptionWork':
-                type = 'inOptionWork';
+                inOptionSubjectSIN = dayTimeTable.inOptionWork_SubjectSIN;
+                inOptionClassroomSIN = dayTimeTable.inOptionWork_ClassroomSIN;
+                inOptionSubjectEE = dayTimeTable.inOptionWork_SubjectEE;
+                inOptionClassroomEE = dayTimeTable.inOptionWork_ClassroomEE;
+                inOptionSubjectITEC = dayTimeTable.inOptionWork_SubjectITEC;
+                inOptionClassroomITEC = dayTimeTable.inOptionWork_ClassroomITEC;
                 break;
+
             default:
                 break;
         }
 
-        // Ckeck the day
-        if (day === 'SATURDAY') {
-            //Check the class
-            if (timetable.data.class === 'terminale') {
-                // check the hour
-                if (hour === 'M1' || hour === 'M2' || hour === 'M3' || hour === 'M4') {
-                    if(type == 'free'){
-                        await interaction.reply(`Vous n'aurez pas de cours à ${hour} aujourd'hui!`);
-                    }else{
-                        if (type === 'inClassWork') {
-                            const subject = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].Subject;
-                            const classroom = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].Classroom;
-
-                            await interaction.reply(`Vous aurez ${subject} en ${classroom} en ${hour} aujourd'hui!`);
-                        } else if (type === 'inGroupWork') {
-                            const subjectGrpA = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupA.Subject;
-                            const classroomGrpA = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupA.Classroom;
-                            const subjectGrpB = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupB.Subject;
-                            const classroomGrpB = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupB.Classroom;
-
-                            await interaction.reply(`Vous aurez ${subjectGrpA} en ${classroomGrpA} et ${subjectGrpB} en ${classroomGrpB} en ${hour} aujourd'hui!`);
-                        } else {
-                            await interaction.reply(`None`);
-                        }
+        // Send the embed
+        await interaction.reply({
+            embeds: [{
+                title: `Horraire de ${hour}`,
+                description: `Semaine ${week ? 'impair' : 'pair'}\nJour ${day}`,
+                fields: [
+                    {
+                        name: 'Cours en classe',
+                        value: inClassSubject ? `${inClassSubject} - ${inClassClassroom}` : free,
+                        inline: true
+                    },
+                    {
+                        name: 'Travail en groupe',
+                        value: inGroupSubjectA ? `${inGroupSubjectA} - ${inGroupClassroomA}\n${inGroupSubjectB} - ${inGroupClassroomB}` : free,
+                        inline: true
+                    },
+                    {
+                        name: 'Travail en option',
+                        value: inOptionSubjectSIN ? `${inOptionSubjectSIN} - ${inOptionClassroomSIN}\n${inOptionSubjectEE} - ${inOptionClassroomEE}\n${inOptionSubjectITEC} - ${inOptionClassroomITEC}` : free,
+                        inline: true
                     }
-                } else {
-                    // Send the message
-                    await interaction.reply(`L'heure ${hour} n'existe pas le samedi`);
-                }
-            } else {
-                // Send the message
-                await interaction.reply(`Vous n'avez pas cours le samedi`);
-            }
-        } else if (day === 'SUNDAY') {
-            // Send the message
-            await interaction.reply(`Vous n'avez pas cours le dimanche`);
-        } else {
-            if (type === 'inClassWork') {
-                const subject = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].Subject;
-                const classroom = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].Classroom;
-
-                await interaction.reply(`Vous aurez ${subject} en ${classroom} en ${hour} aujourd'hui!`);
-            } else if (type === 'inGroupWork') {
-                const subjectGrpA = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupA.Subject;
-                const classroomGrpA = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupA.Classroom;
-                const subjectGrpB = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupB.Subject;
-                const classroomGrpB = timetable[week ? 'EVEN' : 'ODD'][day][hour][type].groupB.Classroom;
-
-                await interaction.reply(`Vous aurez ${subjectGrpA} en ${classroomGrpA} et ${subjectGrpB} en ${classroomGrpB} en ${hour} aujourd'hui!`);
-            } else {
-                await interaction.reply(`Vous n'aurez pas de cours à ${hour} aujourd'hui!`);
-            }
-        }
+                ]
+            }]
+        });
+        // await interaction.reply({
+        //     content:'test'
+        // });
     }
 };
