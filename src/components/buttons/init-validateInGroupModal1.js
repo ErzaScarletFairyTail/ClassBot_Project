@@ -17,24 +17,28 @@ module.exports = {
             .setCustomId("inGroupTextInputSubjectGroupA")
             .setLabel("Subject Group A")
             .setPlaceholder("Subject Group A")
+            .setRequired(false)
             .setStyle(TextInputStyle.Short);
 
         const inGroupTextInputClassroomGroupA = new TextInputBuilder()
             .setCustomId("inGroupTextInputClassroomGroupA")
             .setLabel("Classroom Group A")
             .setPlaceholder("Classroom Group A")
+            .setRequired(false)
             .setStyle(TextInputStyle.Short);
 
         const inGroupTextInputSubjectGroupB = new TextInputBuilder()
             .setCustomId("inGroupTextInputSubjectGroupB")
             .setLabel("Subject Group B")
             .setPlaceholder("Subject Group B")
+            .setRequired(false)
             .setStyle(TextInputStyle.Short);
 
         const inGroupTextInputClassroomGroupB = new TextInputBuilder()
             .setCustomId("inGroupTextInputClassroomGroupB")
             .setLabel("Classroom Group B")
             .setPlaceholder("Classroom Group B")
+            .setRequired(false)
             .setStyle(TextInputStyle.Short);
 
         inGroupModal2.addComponents(

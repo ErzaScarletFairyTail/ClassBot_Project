@@ -3,41 +3,49 @@
     "EVEN": {
         "MONDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -45,41 +53,49 @@
         },
         "TUESDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -87,41 +103,49 @@
         },
         "WEDNESDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -129,41 +153,49 @@
         },
         "THURSDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -171,41 +203,49 @@
         },
         "FRIDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -215,41 +255,49 @@
     "ODD": {
         "MONDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -257,41 +305,49 @@
         },
         "TUESDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -299,41 +355,49 @@
         },
         "WEDNESDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -341,41 +405,49 @@
         },
         "THURSDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
@@ -383,41 +455,49 @@
         },
         "FRIDAY": {
             "M1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "M4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S1": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S2": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S3": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }
             },
             "S4": {
+                "type": "free",
                 "inClassWork": {},
                 "inGroupWork": { "groupA": {}, "groupB": {} },
                 "inOptionWork": {"groupe1": {}, "groupe2": {}, "groupe3": {}, "groupe4": {} }

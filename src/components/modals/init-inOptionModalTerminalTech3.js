@@ -22,12 +22,13 @@ module.exports = {
         const subjectITEC = interaction.fields.getTextInputValue("inOptionModalTerminalTechITECSubject");
         const classroomITEC = interaction.fields.getTextInputValue("inOptionModalTerminalTechITECClassroom");
 
-        if(subjectEE != "" && classroomEE != ""){
+        if(subjectITEC != "" && classroomITEC != ""){
             // Open the timetable of the server
             const timetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`));
 
-            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork.ITEC.Subject = subjectITEC;
-            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork.ITEC.Classroom = classroomITEC;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork_SubjectITEC = subjectITEC;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork_ClassroomITEC = classroomITEC;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].type = "inOptionWork";
 
             fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
 

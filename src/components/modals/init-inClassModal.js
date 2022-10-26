@@ -24,8 +24,9 @@ module.exports = {
 
             if(time.toUpperCase() == "M1" || time.toUpperCase() == "M2" || time.toUpperCase() == "M3" || time.toUpperCase() == "M4") {
 
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Subject = subject;
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Classroom = classroom;
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].type = "inClassWork";
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork_Subject = subject;
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork_Classroom = classroom;
     
                 // Write the new timetable to the file timetable.json
                 fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
@@ -44,8 +45,9 @@ module.exports = {
         if(day.toUpperCase() != "SATURDAY" ) {
 
             // Add the new in class work to the timetable
-            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Subject = subject;
-            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork.Classroom = classroom;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].type = "inClassWork";
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork_Subject = subject;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inClassWork_Classroom = classroom;
 
             // Write the new timetable to the file timetable.json
             fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));

@@ -26,8 +26,9 @@ module.exports = {
             // Open the timetable of the server
             const timetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`));
 
-            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork.EE.Subject = subjectEE;
-            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork.EE.Classroom = classroomEE;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork_SubjectEE = subjectEE;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inOptionWork_ClassroomEE = classroomEE;
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].type = "inOptionWork";
 
             fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
 

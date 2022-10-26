@@ -1,0 +1,1160 @@
+{
+    "data": {
+        "class": "terminale",
+        "section": "technology"
+    },
+    "EVEN": {
+        "MONDAY": {
+            "M1": {
+                "type": "inClassWork",
+                "inClassWork_Subject": "Phylo",
+                "inClassWork_Classroom": "204C"
+            },
+            "M2": {
+                "inGroupWork_SubjectA": "2I2D",
+                "inGroupWork_ClassroomA": "219F",
+                "inGroupWork_Subject": "Physique Chimie",
+                "inGroupWork_ClassroomB": "102C",
+                "type": "inGroupWork"
+            },
+            "M3": {
+                "inOptionWork_SubjectSIN": "SIN",
+                "inOptionWork_ClassroomSIN": "219F",
+                "type": "inOptionWork",
+                "inOptionWork_SubjectEE": "EE",
+                "inOptionWork_ClassroomEE": "104F",
+                "inOptionWork_SubjectITEC": "ITEC",
+                "inOptionWork_ClassroomITEC": "107F"
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "TUESDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "WEDNESDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "THURSDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "FRIDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "SATURDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        }
+    },
+    "ODD": {
+        "MONDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "TUESDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "WEDNESDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "THURSDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "FRIDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "S4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        },
+        "SATURDAY": {
+            "M1": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M2": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M3": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            },
+            "M4": {
+                "type": "free",
+                "inClassWork": {},
+                "inGroupWork": {
+                    "groupA": {},
+                    "groupB": {}
+                },
+                "inOptionWork": {
+                    "SIN": {},
+                    "EE": {},
+                    "ITEC": {}
+                }
+            }
+        }
+    }
+}

@@ -10,8 +10,8 @@ module.exports = {
 
         const { inoptionwork } = client;
 
-        // reset the array
-        inoptionwork = [];
+        // reset the inoptionwork object
+        inoptionwork.splice(0, inoptionwork.length);
 
         await interaction.update({
             content: 'You have successfully validated the option work!',

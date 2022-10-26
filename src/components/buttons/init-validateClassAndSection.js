@@ -81,52 +81,6 @@ module.exports = {
                         timetablePremiereTech.data.section = classAndSection[1];
                         fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetablePremiereTech));
 
-                        //Create a role
-                        interaction.guild.roles.create({
-                            data: {
-                                name: 'Groupe 1',
-                                color: 'WHITE',
-                                mentionable: true
-                            }
-                        });
-
-                        interaction.guild.roles.create({
-                            data: {
-                                name: 'Groupe 2',
-                                color: 'WHITE',
-                                mentionable: true
-                            }
-                        });
-
-                        interaction.guild.roles.create({
-                            data: {
-                                name: 'Groupe 3',
-                                color: 'WHITE',
-                                mentionable: true
-                            }
-                        });
-
-                        interaction.guild.roles.create({
-                            data: {
-                                name: 'Groupe 4',
-                                color: 'WHITE',
-                                mentionable: true
-                            }
-                        });
-
-                        // Get the role id
-                        const roleGroupe1 = interaction.guild.roles.cache.find(role => role.name === 'Groupe 1');
-                        const roleGroupe2 = interaction.guild.roles.cache.find(role => role.name === 'Groupe 2');
-                        const roleGroupe3 = interaction.guild.roles.cache.find(role => role.name === 'Groupe 3');
-                        const roleGroupe4 = interaction.guild.roles.cache.find(role => role.name === 'Groupe 4');
-
-                        //Add to the timetable.json the id
-                        timetablePremiereTech.data.groupe1 = roleGroupe1.id;
-                        timetablePremiereTech.data.groupe2 = roleGroupe2.id;
-                        timetablePremiereTech.data.groupe3 = roleGroupe3.id;
-                        timetablePremiereTech.data.groupe4 = roleGroupe4.id;
-                        fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetablePremiereTech));
-
                         await interaction.update({
                             content: 'Initialisation of the server done!\nPlease run ```/setup-timetab``` to configure the timetable!'
                         });
@@ -203,56 +157,5 @@ module.exports = {
             default:
                 break;
         }
-
-        await interaction.guild.roles.create({
-            name: 'Groupe A',
-            color: Colors.White
-        });
-
-          await interaction.guild.roles.create({
-            name: 'Groupe B',
-            color: Colors.White
-        });
-
-        await interaction.guild.roles.create({
-            name: 'SIN',
-            color: Colors.White
-          });
-
-          await interaction.guild.roles.create({
-            name: 'EE',
-            color: Colors.White
-          });
-
-          await interaction.guild.roles.create({
-            name: 'ITEC',
-            color: Colors.White
-          });
-
-
-        // Get ID of the role 'Groupe A'
-        const roleA = interaction.guild.roles.cache.find(role => role.name === 'Groupe A');
-        // Get ID of the role 'Groupe B'
-        const roleB = interaction.guild.roles.cache.find(role => role.name === 'Groupe B');
-
-        //Get id of the role SIN
-        const roleSIN = interaction.guild.roles.cache.find(role => role.name === 'SIN');
-        //Get id of the role EE
-        const roleEE = interaction.guild.roles.cache.find(role => role.name === 'EE');
-        //Get id of the role ITEC
-        const roleITEC = interaction.guild.roles.cache.find(role => role.name === 'ITEC');
-
-        //Parse the data of ./src/data/${interaction.guild.id}/timetable.json
-
-        const timetable = require(`../../data/${interaction.guild.id}/timetable.json`);
-
-        timetable.data.groupeA = roleA.id;
-        timetable.data.groupeB = roleB.id;
-        timetable.data.SIN = roleSIN.id;
-        timetable.data.EE = roleEE.id;
-        timetable.data.ITEC = roleITEC.id;
-
-        fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable));
-        
     }
 }

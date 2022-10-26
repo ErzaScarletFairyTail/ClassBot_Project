@@ -26,7 +26,7 @@ module.exports = {
             .setRequired(false)
             .setStyle(TextInputStyle.Short);
 
-        inOptionModalTerminalTech2.addComponents(
+        inOptionModalTerminalTech3.addComponents(
             new ActionRowBuilder()
                 .addComponents(inOptionModalTerminalTechITECSubject),
             new ActionRowBuilder()

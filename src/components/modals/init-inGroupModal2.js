@@ -30,8 +30,8 @@ module.exports = {
 
                     // check if the group A is not empty
                     if (subjectGrpA != "" && classroomGrpA != "") {
-                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupA.Subject = subjectGrpA;
-                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupA.Classroom = classroomGrpA;
+                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_SubjectA = subjectGrpA;
+                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_ClassroomA = classroomGrpA;
 
                         // Write the new timetable to the file timetable.json
                         fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
@@ -39,12 +39,14 @@ module.exports = {
 
                     // check if the group B is not empty
                     if (subjectGrpB != "" && classroomGrpB != "") {
-                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupB.Subject = subjectGrpB;
-                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupB.Classroom = classroomGrpB;
+                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_SubjectB = subjectGrpB;
+                        timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_ClassroomB = classroomGrpB;
 
                         // Write the new timetable to the file timetable.json
                         fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
                     }
+                    timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].type = "inGroupWork";
+                    fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
 
                     // Send a message to the user
                     await interaction.update({
@@ -63,8 +65,8 @@ module.exports = {
 
             // check if the group A is not empty
             if (subjectGrpA != "" && classroomGrpA != "") {
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupA.Subject = subjectGrpA;
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupA.Classroom = classroomGrpA;
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_SubjectA = subjectGrpA;
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_ClassroomA = classroomGrpA;
 
                 // Write the new timetable to the file timetable.json
                 fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
@@ -72,12 +74,16 @@ module.exports = {
 
             // check if the group B is not empty
             if (subjectGrpB != "" && classroomGrpB != "") {
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupB.Subject = subjectGrpB;
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork.groupB.Classroom = classroomGrpB;
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_Subject = subjectGrpB;
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_ClassroomB = classroomGrpB;
 
                 // Write the new timetable to the file timetable.json
                 fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
             }
+
+            timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].type = "inGroupWork";
+            fs.writeFileSync(`./src/data/${interaction.guild.id}/timetable.json`, JSON.stringify(timetable, null, 4));
+
 
             // Send a message to the user
             await interaction.update({
