@@ -183,31 +183,24 @@ module.exports = {
                 case 'inOptionWork':
                     if(inOptionSubjectSIN != undefined && inOptionSubjectEE == undefined && inOptionSubjectITEC == undefined){
                         interaction.reply({ embeds: [inOptionWorkSINEmbed] });
-                        console.log("SIN");
                     }
                     if(inOptionSubjectEE != undefined && inOptionSubjectSIN == undefined && inOptionSubjectITEC == undefined){
                         interaction.reply({ embeds: [inOptionWorkEEEmbed] });
-                        console.log("EE");
                     }
                     if(inOptionSubjectITEC != undefined && inOptionSubjectSIN == undefined && inOptionSubjectEE == undefined){
                         interaction.reply({ embeds: [inOptionWorkITECEmbed] });
-                        console.log("ITEC");
                     }
                     if(inOptionSubjectSIN != undefined && inOptionSubjectEE != undefined && inOptionSubjectITEC == undefined){
                         interaction.reply({ embeds: [inOptionWorkSINEmbed, inOptionWorkEEEmbed] });
-                        console.log("SIN & EE");
                     }
                     if(inOptionSubjectSIN != undefined && inOptionSubjectEE == undefined && inOptionSubjectITEC != undefined){
                         interaction.reply({ embeds: [inOptionWorkSINEmbed, inOptionWorkITECEmbed] });
-                        console.log("SIN & ITEC");
                     }
                     if(inOptionSubjectSIN == undefined && inOptionSubjectEE != undefined && inOptionSubjectITEC != undefined){
                         interaction.reply({ embeds: [inOptionWorkEEEmbed, inOptionWorkITECEmbed] });
-                        console.log("EE & ITEC");
                     }
                     if(inOptionSubjectSIN != undefined && inOptionSubjectEE != undefined && inOptionSubjectITEC != undefined){
                         interaction.reply({ embeds: [inOptionWorkSINEmbed, inOptionWorkEEEmbed, inOptionWorkITECEmbed] });
-                        console.log("SIN & EE & ITEC");
                     }
                     break;
                 default:
