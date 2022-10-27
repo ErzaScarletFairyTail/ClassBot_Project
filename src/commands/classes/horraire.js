@@ -44,7 +44,6 @@ module.exports = {
 
         // Open the file timetable.json from the server folder
         const timetable = JSON.parse(fs.readFileSync(`./src/data/${interaction.guild.id}/timetable.json`));
-        console.log(timetable);
         // Get the week
         if (getWeek == 0) {
             week = "ODD";
@@ -53,7 +52,6 @@ module.exports = {
         }
         // Get the type
         const dayTimeTable = timetable[week][day.toUpperCase()][hour];
-        console.log(dayTimeTable);
         // Get the hour type
         switch (dayTimeTable.type) {
             case 'inClassWork':
@@ -78,33 +76,144 @@ module.exports = {
             default:
                 break;
         }
+        
+        // Create free embed
+        const freeEmbed = {
+            color: 0x0099ff,
+            title: `Horraire de ${hour}`,
+            timestamp: new Date(),
+            footer: {
+                text: 'Horraire',
+                icon_url: 'https://i.imgur.com/wSTFkRM.png',
+            },
+        };
 
-        // Send the embed
-        await interaction.reply({
-            embeds: [{
-                title: `Horraire de ${hour}`,
-                description: `Semaine ${week ? 'impair' : 'pair'}\nJour ${day}`,
-                fields: [
-                    {
-                        name: 'Cours en classe',
-                        value: inClassSubject ? `${inClassSubject} - ${inClassClassroom}` : free,
-                        inline: true
-                    },
-                    {
-                        name: 'Travail en groupe',
-                        value: inGroupSubjectA ? `${inGroupSubjectA} - ${inGroupClassroomA}\n${inGroupSubjectB} - ${inGroupClassroomB}` : free,
-                        inline: true
-                    },
-                    {
-                        name: 'Travail en option',
-                        value: inOptionSubjectSIN ? `${inOptionSubjectSIN} - ${inOptionClassroomSIN}\n${inOptionSubjectEE} - ${inOptionClassroomEE}\n${inOptionSubjectITEC} - ${inOptionClassroomITEC}` : free,
-                        inline: true
+        // Create inClassWork embed
+        const inClassWorkEmbed = {
+            color: 0x0099ff,
+            title: `Horraire de ${hour}`,
+            description: `Cours en classe de ${inClassSubject} en ${inClassClassroom}`,
+            timestamp: new Date(),
+            footer: {
+                text: 'Horraire',
+                icon_url: 'https://i.imgur.com/wSTFkRM.png',
+            },
+        };
+
+        // Create inGroupWorkA embed
+        const inGroupWorkAEmbed = {
+            color: 0x0099ff,
+            title: `Horraire de ${hour}`,
+            description: `Cours en groupe A de ${inGroupSubjectA} en ${inGroupClassroomA}`,
+            timestamp: new Date(),
+            footer: {
+                text: 'Horraire',
+                icon_url: 'https://i.imgur.com/wSTFkRM.png',
+            },
+        };
+
+        // Create inGroupWorkB embed
+        const inGroupWorkBEmbed = {
+            color: 0x0099ff,
+            title: `Horraire de ${hour}`,
+            description: `Cours en groupe B de ${inGroupSubjectB} en ${inGroupClassroomB}`,
+            timestamp: new Date(),
+            footer: {
+                text: 'Horraire',
+                icon_url: 'https://i.imgur.com/wSTFkRM.png',
+            },
+        };
+
+        // Create inOptionWorkSIN embed
+        const inOptionWorkSINEmbed = {
+            color: 0x0099ff,
+            title: `Horraire de ${hour}`,
+            description: `Cours en option SIN de ${inOptionSubjectSIN} en ${inOptionClassroomSIN}`,
+            timestamp: new Date(),
+            footer: {
+                text: 'Horraire',
+                icon_url: 'https://i.imgur.com/wSTFkRM.png',
+            },
+        };
+
+        // Create inOptionWorkEE embed
+        const inOptionWorkEEEmbed = {
+            color: 0x0099ff,
+            title: `Horraire de ${hour}`,
+            description: `Cours en option EE de ${inOptionSubjectEE} en ${inOptionClassroomEE}`,
+            timestamp: new Date(),
+            footer: {
+                text: 'Horraire',
+                icon_url: 'https://i.imgur.com/wSTFkRM.png',
+            },
+        };
+
+        // Create inOptionWorkITEC embed
+        const inOptionWorkITECEmbed = {
+            color: 0x0099ff,
+            title: `Horraire de ${hour}`,
+            description: `Cours en option ITEC de ${inOptionSubjectITEC} en ${inOptionClassroomITEC}`,
+            timestamp: new Date(),
+            footer: {
+                text: 'Horraire',
+                icon_url: 'https://i.imgur.com/wSTFkRM.png',
+            },
+        };
+
+        // Verify if the hour is free or not
+        if (dayTimeTable.type == undefined) {
+            interaction.reply({ embeds: [freeEmbed] });
+        } else {
+            // verify string
+            switch (dayTimeTable.type) {
+                case 'inClassWork':
+                    interaction.reply({ embeds: [inClassWorkEmbed] });
+                    break;
+                case 'inGroupWork':
+                    if(inGroupSubjectA != undefined && inGroupSubjectB == undefined){
+                        interaction.reply({ embeds: [inGroupWorkAEmbed] });
                     }
-                ]
-            }]
-        });
-        // await interaction.reply({
-        //     content:'test'
-        // });
+                    if(inGroupSubjectB != undefined && inGroupSubjectA == undefined){
+                        interaction.reply({ embeds: [inGroupWorkBEmbed] });
+                    }
+                    if(inGroupSubjectA != undefined && inGroupSubjectB != undefined){
+                        interaction.reply({ embeds: [inGroupWorkAEmbed, inGroupWorkBEmbed] });
+                    }
+                    break;
+                case 'inOptionWork':
+                    if(inOptionSubjectSIN != undefined && inOptionSubjectEE == undefined && inOptionSubjectITEC == undefined){
+                        interaction.reply({ embeds: [inOptionWorkSINEmbed] });
+                        console.log("SIN");
+                    }
+                    if(inOptionSubjectEE != undefined && inOptionSubjectSIN == undefined && inOptionSubjectITEC == undefined){
+                        interaction.reply({ embeds: [inOptionWorkEEEmbed] });
+                        console.log("EE");
+                    }
+                    if(inOptionSubjectITEC != undefined && inOptionSubjectSIN == undefined && inOptionSubjectEE == undefined){
+                        interaction.reply({ embeds: [inOptionWorkITECEmbed] });
+                        console.log("ITEC");
+                    }
+                    if(inOptionSubjectSIN != undefined && inOptionSubjectEE != undefined && inOptionSubjectITEC == undefined){
+                        interaction.reply({ embeds: [inOptionWorkSINEmbed, inOptionWorkEEEmbed] });
+                        console.log("SIN & EE");
+                    }
+                    if(inOptionSubjectSIN != undefined && inOptionSubjectEE == undefined && inOptionSubjectITEC != undefined){
+                        interaction.reply({ embeds: [inOptionWorkSINEmbed, inOptionWorkITECEmbed] });
+                        console.log("SIN & ITEC");
+                    }
+                    if(inOptionSubjectSIN == undefined && inOptionSubjectEE != undefined && inOptionSubjectITEC != undefined){
+                        interaction.reply({ embeds: [inOptionWorkEEEmbed, inOptionWorkITECEmbed] });
+                        console.log("EE & ITEC");
+                    }
+                    if(inOptionSubjectSIN != undefined && inOptionSubjectEE != undefined && inOptionSubjectITEC != undefined){
+                        interaction.reply({ embeds: [inOptionWorkSINEmbed, inOptionWorkEEEmbed, inOptionWorkITECEmbed] });
+                        console.log("SIN & EE & ITEC");
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
     }
-};
+
+}

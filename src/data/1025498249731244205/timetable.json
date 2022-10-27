@@ -83,27 +83,9 @@
             "S4": {}
         },
         "WEDNESDAY": {
-            "M1": {
-                "type": "inClassWork",
-                "inClassWork_Subject": "Histoire-Géo",
-                "inClassWork_Classroom": "205C"
-            },
-            "M2": {
-                "inGroupWork_SubjectA": "Phylo",
-                "inGroupWork_ClassroomA": "001C",
-                "inGroupWork_SubjectB": "Maths",
-                "inGroupWork_ClassroomB": "418C",
-                "type": "inGroupWork"
-            },
-            "M3": {
-                "inOptionWork_SubjectSIN": "SIN",
-                "inOptionWork_ClassroomSIN": "219F",
-                "type": "inOptionWork",
-                "inOptionWork_SubjectEE": "EE",
-                "inOptionWork_ClassroomEE": "105F",
-                "inOptionWork_SubjectITEC": "ITEC",
-                "inOptionWork_ClassroomITEC": "002F"
-            },
+            "M1": {},
+            "M2": {},
+            "M3": {},
             "M4": {},
             "S1": {},
             "S2": {},
@@ -111,10 +93,32 @@
             "S4": {}
         },
         "THURSDAY": {
-            "M1": {},
-            "M2": {},
-            "M3": {},
-            "M4": {},
+            "M1": {
+                "type": "inClassWork",
+                "inClassWork_Subject": "Phylo",
+                "inClassWork_Classroom": "205C"
+            },
+            "M2": {
+                "inGroupWork_SubjectA": "Maths",
+                "inGroupWork_ClassroomA": "418C",
+                "type": "inGroupWork"
+            },
+            "M3": {
+                "inGroupWork_SubjectA": "Physique Chimie",
+                "inGroupWork_ClassroomA": "102C",
+                "inGroupWork_SubjectB": "2I2D",
+                "inGroupWork_ClassroomB": "125F",
+                "type": "inGroupWork"
+            },
+            "M4": {
+                "inOptionWork_SubjectSIN": "SIN",
+                "inOptionWork_ClassroomSIN": "219F",
+                "type": "inOptionWork",
+                "inOptionWork_SubjectEE": "EE",
+                "inOptionWork_ClassroomEE": "219F",
+                "inOptionWork_SubjectITEC": "ITEC",
+                "inOptionWork_ClassroomITEC": "004F"
+            },
             "S1": {},
             "S2": {},
             "S3": {},

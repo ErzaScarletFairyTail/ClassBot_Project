@@ -14,7 +14,7 @@ module.exports = {
         const day = interaction.fields.getTextInputValue("inOptionTextInputDay");
         const time = interaction.fields.getTextInputValue("inOptionTextInputTime");
 
-        inoptionwork.push(week, day, time);
+        inoptionwork.push(week.toUpperCase(), day.toUpperCase(), time.toUpperCase());
 
         const validateButton = new ButtonBuilder()
             .setCustomId('init-validateInOptionModal1')
