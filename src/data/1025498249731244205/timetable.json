@@ -25,10 +25,32 @@
             "S4": {}
         },
         "WEDNESDAY": {
-            "M1": {},
-            "M2": {},
-            "M3": {},
-            "M4": {},
+            "M1": {
+                "type": "inClassWork",
+                "inClassWork_Subject": "Phylo",
+                "inClassWork_Classroom": "205C"
+            },
+            "M2": {
+                "inGroupWork_SubjectA": "Maths",
+                "inGroupWork_ClassroomA": "418C",
+                "inGroupWork_SubjectB": "Physique",
+                "inGroupWork_ClassroomB": "102C",
+                "type": "inGroupWork"
+            },
+            "M3": {
+                "inOptionWork_SubjectSIN": "SIN",
+                "inOptionWork_ClassroomSIN": "219F",
+                "type": "inOptionWork",
+                "inOptionWork_SubjectEE": "EE",
+                "inOptionWork_ClassroomEE": "218F",
+                "inOptionWork_SubjectITEC": "ITEC",
+                "inOptionWork_ClassroomITEC": "002F"
+            },
+            "M4": {
+                "inGroupWork_Subject": "Test",
+                "inGroupWork_ClassroomB": "205C",
+                "type": "inGroupWork"
+            },
             "S1": {},
             "S2": {},
             "S3": {},
@@ -93,32 +115,10 @@
             "S4": {}
         },
         "THURSDAY": {
-            "M1": {
-                "type": "inClassWork",
-                "inClassWork_Subject": "Phylo",
-                "inClassWork_Classroom": "205C"
-            },
-            "M2": {
-                "inGroupWork_SubjectA": "Maths",
-                "inGroupWork_ClassroomA": "418C",
-                "type": "inGroupWork"
-            },
-            "M3": {
-                "inGroupWork_SubjectA": "Physique Chimie",
-                "inGroupWork_ClassroomA": "102C",
-                "inGroupWork_SubjectB": "2I2D",
-                "inGroupWork_ClassroomB": "125F",
-                "type": "inGroupWork"
-            },
-            "M4": {
-                "inOptionWork_SubjectSIN": "SIN",
-                "inOptionWork_ClassroomSIN": "219F",
-                "type": "inOptionWork",
-                "inOptionWork_SubjectEE": "EE",
-                "inOptionWork_ClassroomEE": "219F",
-                "inOptionWork_SubjectITEC": "ITEC",
-                "inOptionWork_ClassroomITEC": "004F"
-            },
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
             "S1": {},
             "S2": {},
             "S3": {},

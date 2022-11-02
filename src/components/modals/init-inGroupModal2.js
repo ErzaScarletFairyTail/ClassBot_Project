@@ -74,7 +74,7 @@ module.exports = {
 
             // check if the group B is not empty
             if (subjectGrpB != "" && classroomGrpB != "") {
-                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_Subject = subjectGrpB;
+                timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_SubjectB = subjectGrpB;
                 timetable[week.toUpperCase()][day.toUpperCase()][time.toUpperCase()].inGroupWork_ClassroomB = classroomGrpB;
 
                 // Write the new timetable to the file timetable.json
