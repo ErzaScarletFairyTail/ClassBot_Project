@@ -1,0 +1,138 @@
+{
+    "data": {
+        "class": "terminale",
+        "section": "technology"
+    },
+    "EVEN": {
+        "MONDAY": {
+            "M1": {},
+            "M2": {
+                "type": "inClassWork",
+                "inClassWork_Subject": "2I2D",
+                "inClassWork_Classroom": "319F"
+            },
+            "M3": {
+                "inGroupWork_SubjectA": "Maths",
+                "inGroupWork_ClassroomA": "418C",
+                "inGroupWork_SubjectB": "Phylo",
+                "inGroupWork_ClassroomB": "001C",
+                "type": "inGroupWork"
+            },
+            "M4": {
+                "inOptionWork_SubjectSIN": "SIN",
+                "inOptionWork_ClassroomSIN": "131F",
+                "type": "inOptionWork",
+                "inOptionWork_SubjectITEC": "ITEC",
+                "inOptionWork_ClassroomITEC": "004F"
+            },
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "TUESDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "WEDNESDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "THURSDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "FRIDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "SATURDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {}
+        }
+    },
+    "ODD": {
+        "MONDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "TUESDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "WEDNESDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "THURSDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "FRIDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {},
+            "S1": {},
+            "S2": {},
+            "S3": {},
+            "S4": {}
+        },
+        "SATURDAY": {
+            "M1": {},
+            "M2": {},
+            "M3": {},
+            "M4": {}
+        }
+    }
+}
